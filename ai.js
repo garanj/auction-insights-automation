@@ -27,7 +27,6 @@ var MILLIS_PER_DAY = 86400000;
 
 function main() {
   loadReportMap();
-  Logger.log(REPORT_MAP);
   OUTPUT_FOLDER = DriveApp.getFolderById(OUTPUT_FOLDER_ID);
   processThreads();
   
