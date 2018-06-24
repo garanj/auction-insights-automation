@@ -2,7 +2,7 @@
 
 ## Overview
 
-This [Apps Script](https://developers.google.com/apps-script/) solution demonstrates an approach taken to automating the downloading and processing of [Auction Insights](https://support.google.com/adwords/answer/2579754) reports.
+This [Apps Script](https://developers.google.com/apps-script/) solution demonstrates an approach taken to automating the downloading and processing of [Auction Insights](https://support.google.com/adwords/answer/2579754) reports, as Auction Insights are not available in either AdWords Scripts or the AdWords API.
 
 ## Account setup
 
