@@ -19,7 +19,7 @@ It is necessary to set up a Google account specifically for use with this script
 > each email contains a download link which can be automatically followed. Only by choosing **Email only** will the report
 > emails be of this format: **Email only** cannot assume that the recipient will have an AdWords account, therefore the emails
 > contain a download link. The other, greater, levels of access do not contain such a link, and instead contain a link to an
-> Adwords login flow for generating a report. This flow cannot be used by this type of solution.
+> AdWords login flow for generating a report. This flow cannot be used by this type of solution.
 
 ## Schedule Auction Insights reports in AdWords
 
@@ -27,7 +27,7 @@ Follow AdWords guidance to create and schedule Auction Insights reports:
 
 1.  Click the download icon and select **schedule**.
 1.  Set the following options:
-    1.  Change the recipient to the newly-created Google-account.
+    1.  Change the recipient to the newly-created Google account.
     1.  Select the frequency option, e.g. **daily**.
     1.  Select **csv** for the format (not Excel csv).
     1.  Check **compress file**.
