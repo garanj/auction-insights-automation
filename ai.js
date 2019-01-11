@@ -19,8 +19,9 @@ var OUTPUT_FOLDER_ID = 'INSERT_DRIVE_FOLDER_ID';
 // - Last Received - The date of the last received report.
 var REPORT_MAP_SPREADSHEET_URL = 'INSERT_SPREADSHEET_URL_HERE';
 
-var SUBJECT_REGEX = /^AdWords Report Request \| (.*)$/;
-var URL_REGEX = /(https:\/\/adwords\.google\.com\/aw_reporting\/email_download\S+)/;
+
+var SUBJECT_REGEX = /^Your Google Ads report is ready: (.*)$/;
+var URL_REGEX = /(https:\/\/www\.google\.com\/appserve\/[^"]+)"[^>]+>VIEW REPORT/;
 var OUTPUT_FOLDER = null;
 var REPORT_MAP = {};
 var MILLIS_PER_DAY = 86400000;
